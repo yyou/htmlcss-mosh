@@ -1,0 +1,48 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.5;
+  padding: 2rem;
+  font-size: 1.8rem;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", "Courier New", Courier, monospace;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 4.209rem;
+}
+
+h2 {
+  font-size: 3.157rem;
+}
+
+h3 {
+  font-size: 2.369rem;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  font-family: "Open Sans", "Courier New", Courier, monospace;
+  font-size: 2.5rem;
+}
+
+p.lead-paragraph {
+  font-family: "PT Serif", "Courier New", Courier, monospace;
+  font-size: 2.5rem;
+}
