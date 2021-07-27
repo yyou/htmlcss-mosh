@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    background-image: url("images/hubble-320.jpg");
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 924px) {
+  body {
+    background-image: url("images/hubble-924.jpg");
+  }
+}
+
+@media screen and (min-width: 925px) and (max-width: 1388px) {
+  body {
+    background-image: url("images/hubble-1388.jpg");
+  }
+}
+
+@media screen and (min-width: 1389px) {
+  body {
+    background-image: url("images/hubble-1440.jpg");
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+}
+
+.container h1 {
+  color: white;
+  margin-bottom: 50px;
+  font-size: 3rem;
+  text-shadow: 0 0 15px black;
+  word-spacing: 1rem;
+}
+
+.container p {
+  color: white;
+  background: rgba(0, 0, 0, 50%);
+  padding: 10px;
+  font-size: 2rem;
+}
